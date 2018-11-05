@@ -1,0 +1,13 @@
+{
+	"rewards": {"function":"xpstorage:drink/336"},
+    "criteria": {
+        "bat": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{xppoints:336s}"
+                }
+            }
+        }
+    }
+}
