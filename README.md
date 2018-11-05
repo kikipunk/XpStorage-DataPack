@@ -1,4 +1,4 @@
-![SoulShard](http://mapmaking.fr/datapack/image/xpstoragetext.png)
+![XpStorage](http://mapmaking.fr/datapack/image/xpstoragetext.png)
 
 ### Wiki
 [Check out the wiki](https://github.com/kikipunk/XpStorage-DataPack/wiki)
