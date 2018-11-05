@@ -1,17 +1,13 @@
-![SoulShard](http://mapmaking.fr/datapack/image/soulshard.png)
+![SoulShard](http://mapmaking.fr/datapack/image/xpstoragetext.png)
 
 ### Wiki
-[Check out the wiki](https://github.com/kikipunk/SoulShard-DataPack/wiki)
+[Check out the wiki](https://github.com/kikipunk/XpStorage-DataPack/wiki)
 
 ### Installation 
-[Instructions](https://github.com/kikipunk/SoulShard-DataPack/wiki/Installation)
+[Instructions](https://github.com/kikipunk/XpStorage-DataPack/wiki/Installation)
 
 ### Downloads
-Now on curseforge! [https://minecraft.curseforge.com/projects/soulshard-datapack](https://minecraft.curseforge.com/projects/soulshard-datapack)
+Now on curseforge! [https://minecraft.curseforge.com/projects/xp-storage-datapack](https://minecraft.curseforge.com/projects/xp-storage-datapack)
 
 ### Credit
 By Kikipunk and Daminator4113
-
-Help mathaym25
-
-Based on SoulShard Mod by ShadwDrgn
