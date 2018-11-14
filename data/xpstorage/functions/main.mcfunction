@@ -2,6 +2,8 @@ execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.25
 execute as @e[type=minecraft:armor_stand,tag=xs_hopper] run data merge entity @s {Fire:32000}
 execute as @e[type=minecraft:item,nbt={OnGround:1b,Item:{id:"minecraft:hopper",Count:1b}}] at @s if block ~ ~-1 ~ minecraft:crafting_table if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={OnGround:1b,Item:{id:"minecraft:bucket",Count:1b}}] run function xpstorage:craft
 
+execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~0.25 ~0.75 store result score @s xs_points run data merge block ~ ~ ~ {TransferCooldown:2147483647}
+
 execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.75 ~0.75 store result score @s xs_points run data get block ~ ~-0.1 ~ Items[0].tag.xppoints
 
 execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.75 ~0.75 if entity @e[type=minecraft:experience_orb,distance=..2] run function xpstorage:storeorb
