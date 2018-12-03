@@ -4,7 +4,7 @@ execute as @e[type=minecraft:item,nbt={OnGround:1b,Item:{id:"minecraft:hopper",C
 
 execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~0.25 ~0.75 store result score @s xs_points run data merge block ~ ~ ~ {TransferCooldown:2147483647}
 
-execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.75 ~0.75 store result score @s xs_points run data get block ~ ~-0.1 ~ Items[0].tag.xppoints
+execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.75 ~0.75 if block ~ ~ ~ minecraft:hopper{Items:[{Slot:0b,id:"minecraft:potion",Count:1b,tag:{CustomPotionColor:9436928}}]} store result score @s xs_points run data get block ~ ~-0.1 ~ Items[0].tag.xppoints
 
 execute as @e[type=minecraft:armor_stand,tag=xs_hopper] at @s positioned ~ ~1.75 ~0.75 if entity @e[type=minecraft:experience_orb,distance=..2] run function xpstorage:storeorb
 
