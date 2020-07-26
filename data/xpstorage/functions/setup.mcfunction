@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"XpStorage DataPack successfully loaded !! ","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"By Daminator4113 and Kikipunk"}},{"text":"Version 1.5!!","color":"gold","hoverEvent":{"action":"show_text","value":"By Daminator4113 and Kikipunk"}}]
+tellraw @a ["",{"text":"XpStorage DataPack successfully loaded !! ","color":"dark_aqua","hoverEvent":{"action":"show_text","value":"By Daminator4113 and Kikipunk"}},{"text":"Version 2.2!!","color":"gold","hoverEvent":{"action":"show_text","value":"By Daminator4113 and Kikipunk"}}]
 
 
 scoreboard objectives add xs_hopper_ca dummy
